@@ -37,3 +37,93 @@ body {
     line-height: 29px;
     color: #FFF2E7;
 }
+
+.container {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.container > .principal-textos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container > .principal-textos > .escritos {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.container > .principal-textos > .escritos > .titulo {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    color: #FFF2E7;
+}
+
+.container > .principal-textos > .escritos > .subtitulo {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #ECD6C4;
+}
+
+.container > .principal-textos > .escritos > .botao {
+    width: 186px;
+    height: 67px;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    color: #2F2325;
+    border: none;
+}
+
+.container > .principal-textos > .escritos > .botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.container > .principal-textos > .imagem {
+    height: 430px;
+}
+
+.container > .secundario-textos > .escritos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.container > .secundario-textos > .escritos > .titulo {
+    border-top: 0.4px solid #FFF2E7;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF2E7;
+    padding-top: 48px;
+}
+
+.container > .secundario-textos > .escritos > .paragrafo {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #ECD6C4;
+}
