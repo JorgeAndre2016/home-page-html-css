@@ -127,3 +127,14 @@ body {
     text-align: center;
     color: #ECD6C4;
 }
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape > .imagem {
+    margin: 0 auto;
+    display: block;
+    height: 48px;
+}
