@@ -1,6 +1,6 @@
 # home-page-html-css
 
-#### Hands-On com [Rafaella Ballerini](https://www.youtube.com/@rafaellaballerini), [criando uma LANDING PAGE COM HTML e CSS!](https://www.youtube.com/watch?v=3oSIqIqzN3M)
+#### Hands-On com [Rafaella Ballerini](https://www.youtube.com/@rafaellaballerini), [criando uma LANDING PAGE COM HTML e CSS!](https://www.youtube.com/watch?v=llF6vD-RljE)
 
 * Figma com o Design: [Link](https://www.figma.com/file/myqP66iQwzjwjrIAJyyrip/BalleBot?type=design&node-id=0-1&t=i5F8kd4qrTTWfEXX-0)
 * Google Fonts: [Link](https://fonts.google.com/)
