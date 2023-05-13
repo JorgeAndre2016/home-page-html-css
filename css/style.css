@@ -20,16 +20,16 @@ body {
     padding: 24px;
 }
 
-.cabecalho > .imagem {
+.cabecalho__imagem {
     height: 72px;
 }
 
-.cabecalho > .menu {
+.cabecalho__menu {
     display: flex;
     gap: 32px;
 }
 
-.cabecalho >  .menu > .item {
+.cabecalho__item {
     font-family: 'Sarala';
     font-style: normal;
     font-weight: 400;
@@ -43,20 +43,20 @@ body {
     border-top: 0.4px solid #FFF2E7;
 }
 
-.container > .principal-textos {
+.principal-textos {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-.container > .principal-textos > .escritos {
+.principal-textos__escritos {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.container > .principal-textos > .escritos > .titulo {
+.principal-textos__titulo {
     font-family: 'Righteous';
     font-style: normal;
     font-weight: 400;
@@ -65,7 +65,7 @@ body {
     color: #FFF2E7;
 }
 
-.container > .principal-textos > .escritos > .subtitulo {
+.principal-textos__subtitulo {
     font-family: 'Sarala';
     font-style: normal;
     font-weight: 400;
@@ -74,7 +74,7 @@ body {
     color: #ECD6C4;
 }
 
-.container > .principal-textos > .escritos > .botao {
+.principal-textos__botao {
     width: 186px;
     height: 67px;
     background: #ECD6C4;
@@ -90,15 +90,15 @@ body {
     border: none;
 }
 
-.container > .principal-textos > .escritos > .botao:hover {
+.principal-textos__botao--active:hover {
     background-color: rgba(236, 214, 196, 0.53);
 }
 
-.container > .principal-textos > .imagem {
+.principal-textos__imagem {
     height: 430px;
 }
 
-.container > .secundario-textos > .escritos {
+.secundario-textos__escritos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +106,7 @@ body {
     margin-top: 48px;
 }
 
-.container > .secundario-textos > .escritos > .titulo {
+.secundario-textos__titulo {
     border-top: 0.4px solid #FFF2E7;
     font-family: 'Righteous';
     font-style: normal;
@@ -118,7 +118,7 @@ body {
     padding-top: 48px;
 }
 
-.container > .secundario-textos > .escritos > .paragrafo {
+.secundario-textos__paragrafo {
     font-family: 'Sarala';
     font-style: normal;
     font-weight: 400;
@@ -133,7 +133,7 @@ body {
     border-top: 0.4px solid #FFF2E7;
 }
 
-.rodape > .imagem {
+.rodape__imagem {
     margin: 0 auto;
     display: block;
     height: 48px;
